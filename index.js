@@ -8,7 +8,7 @@ const app = express()
 // parse application/json
 app.use(bodyParser.json())
 
-app.post('/', (req, res) => {
+app.post('/overlay', (req, res) => {
 
 var converter = new Converter();
 
